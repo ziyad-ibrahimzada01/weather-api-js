@@ -1,7 +1,6 @@
-const WEATHER_API_Key = "9f1cb7492c421a92f21c664c337f363f"; // MAILE GELEN API
-const WEB_URL = "https://api.openweathermap.org/data/2.5/weather"; // URL
+const WEATHER_API_Key = "9f1cb7492c421a92f21c664c337f363f"; 
+const WEB_URL = "https://api.openweathermap.org/data/2.5/weather"; 
 const city = prompt("Enter your city");
-// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
 if (city) {
   const QUERY = `?q=${city}&APPID=${WEATHER_API_Key}&units=metric`;
 
